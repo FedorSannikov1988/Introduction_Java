@@ -22,7 +22,7 @@ public class task3 {
             return false;
         }
 
-        for (int i = 4; i < namber; i++) {
+        for (int i = 2; i < namber; i++) {
             if (namber % i == 0) {
                 return false;
             }
