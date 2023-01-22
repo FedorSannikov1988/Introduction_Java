@@ -11,6 +11,7 @@ package homework1;
 import java.util.Scanner;
 
 public class task1 {
+    
     static int generation_random_number(int start_random_number, int stop_random_number){
         int random_number_in_specified_range = start_random_number + (int)(Math.random()*stop_random_number);
         return random_number_in_specified_range;
