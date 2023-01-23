@@ -1,0 +1,6 @@
+янв. 23, 2023 11:12:10 PM homework2.task1 send_log
+INFO: java.util.InputMismatchException: Value out of range. Value:"200" Radix:10
+янв. 23, 2023 11:12:23 PM homework2.task1 send_log
+INFO: java.util.InputMismatchException: Value out of range. Value:"300" Radix:10
+янв. 23, 2023 11:12:27 PM homework2.task1 send_log
+INFO: java.util.InputMismatchException: Value out of range. Value:"400" Radix:10
