@@ -77,9 +77,9 @@ public class task1{
         String text = "Введите число в формате byte: ";
 
         String data_str = get_data_console_format_byte_return_string(text);
-        
-        String file_name = "result";
 
+        String file_name = "result";
+        
         writing_data_in_txt_file(data_str,file_name);
     }
 }

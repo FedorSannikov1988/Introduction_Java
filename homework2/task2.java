@@ -6,6 +6,7 @@
 4) читает сохраненный файл и выводит содержимое в логгер
 5) удаляет сохраненный файл
 */
+
 package homework2;
 
 import java.io.*;
@@ -35,10 +36,11 @@ public class task2 {
             System.out.println("ALARM: ERROR: Nothing came to the function Changing_TEXT");
             return "";
         }
+        String key_for_split = "Q@W@R@";
         
-        String after_replacement = old_string.replace(replacement_part, substitute);
+        String after_replacement = old_string.replace(replacement_part, substitute + key_for_split);
 
-        return after_replacement;
+        return after_replacement.split(key_for_split)[0];
     }
 
     public static void Writing_Data_in_fIlE(String data_str, String path_and_file_name) {
