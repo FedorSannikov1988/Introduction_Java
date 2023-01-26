@@ -33,7 +33,7 @@ public class task2_v2 {
             System.out.println("bytesread: " + bytesread);
             System.out.println("- - - - - - - - - -"+"\n");
             /* - - - */
-            
+
             return data_str;
         } 
         catch (IOException e) {

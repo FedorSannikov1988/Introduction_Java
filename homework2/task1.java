@@ -14,6 +14,7 @@
 с диапазоном допустимых значений от -128 до 127.
 При вводе 200 будет вызвана ошибка "Value out of range".
 */
+
 package homework2;
 
 import java.util.Scanner;
@@ -48,6 +49,7 @@ public class task1{
             data_str = Byte.toString(data);
         }
         catch (Exception e) {
+            //System.out.printf(e.toString());
             send_log(e.toString());
         }
         return data_str;
