@@ -12,3 +12,5 @@ INFO: java.util.InputMismatchException: Value out of range. Value:"201" Radix:10
 INFO: java.util.InputMismatchException: Value out of range. Value:"200" Radix:10
 янв. 28, 2023 5:47:38 PM homework2.task1 send_log
 INFO: java.util.NoSuchElementException
+янв. 28, 2023 9:46:32 PM homework2.task1 send_log
+INFO: java.util.InputMismatchException

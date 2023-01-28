@@ -42,7 +42,7 @@ public class task1 {
             try {
                 Scanner terminal_scanner = new Scanner(System.in);
                 int data_int = terminal_scanner.nextInt();
-                //terminal_scanner.close(); - ? (спосить у преподователя)
+                terminal_scanner.close(); //- ? (спосить у преподователя)
                 return data_int;
             }
             catch (Exception e) {
