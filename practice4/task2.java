@@ -23,6 +23,8 @@ public class task2 {
 
             summaNamber =  namber1.removeFirst() +  namber2.removeFirst();
 
+            System.out.println(summaNamber);
+
             if (summaNamber > 9) {
                 resaltSumma.addLast(summaNamber%10 + byffer);
                 byffer = summaNamber/ 10;
@@ -40,9 +42,9 @@ public class task2 {
 
     public static void main(String[] args) {
 
-        Deque<Integer> namber_one = new ArrayDeque<>(Arrays.asList(1, 2, 3));
+        Deque<Integer> namber_one = new ArrayDeque<>(Arrays.asList(9, 2, 3));
         Deque<Integer> namber_two = new ArrayDeque<>(Arrays.asList(5, 4, 7));
 
-        System.out.println("Сумма чиcел " + namber_one + " и "+ namber_two + " равна " + sum(namber_one, namber_two));
+        System.out.println("\n" + "Сумма чиcел " + namber_one + " и "+ namber_two + " равна " + sum(namber_one, namber_two) + "\n");
     }
 }
