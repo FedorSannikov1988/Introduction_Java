@@ -35,7 +35,7 @@ public class task3 {
 
                 stack.addFirst(simvol);
 
-                //System.out.println("->"+stack);
+//                System.out.println("->"+stack);
             }
 
             if (simvol == ')' || simvol == '}' || simvol == ']') {
@@ -50,9 +50,9 @@ public class task3 {
                     (simvol == '}' && bufferForCompare == '{') || 
                     (simvol == ']' && bufferForCompare == '['))  {
 
-                    //System.out.println("dell "+stack.pollFirst());
+//                  System.out.println("dell "+ stack.peekFirst());
                     stack.pollFirst();
-                    //System.out.println("<-"+stack);
+//                  System.out.println("<-"+stack);
                 }
             }          
         }
@@ -72,6 +72,7 @@ public class task3 {
         System.out.println("()() => " + validate("()()"));
         System.out.println(")()( => " + validate(")()("));
         System.out.println("(w)(a) => " + validate("(w)(a)"));
-        
+
+
     }
 }
